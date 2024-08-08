@@ -1,0 +1,228 @@
+header{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 101;
+   .header__wrapper{
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .header__collection{
+            ul{
+               display: flex;
+               align-items: center;
+               gap: 20px;
+               li{
+                    a{
+                        font-size: 17px;
+                        color: #222222;
+                        font-weight: 700;
+                    }
+               }
+            }
+            .btn.white{
+                transition: .5s linear;
+                &:hover{
+                    transform: scale(1.1);
+                    box-shadow: rgba(0, 0, 0, 0.45) 0px 8px 18px;
+                }
+            }
+            .btn.dark{
+                transition: .5s linear;
+                &:hover{
+                    transform: scale(1.1);
+                    box-shadow: rgba(0, 0, 0, 0.45) 0px 8px 18px;
+                }
+            }
+        }
+   }  
+}
+@media (max-width:1024px) {
+    header{
+        width: 100%;
+    }
+}
+@media (max-width:950px) {
+    header{
+        width: 100%;
+    }
+}
+@media (max-width:900px) {
+    header{
+        width: 100%;
+    }
+   
+}
+@media (max-width:850px) {
+    header{
+        border-bottom: 3px solid #CF6F49;
+        width: 100%;
+    }
+  
+}
+@media (max-width:800px) {
+    header{
+        border-bottom: 3px solid #CF6F49;
+        width: 100%;
+        .header__wrapper{
+            .header__collection{
+                ul{
+                    li{
+                        a{
+                            display: none;
+                        }
+                        select{
+                            margin-right: -50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+  
+}
+@media (max-width:750px) {
+    header{
+        border-bottom: 3px solid #CF6F49;
+        width: 100%;
+    }
+}
+@media (max-width:700px) {
+    header{
+        border-bottom: 3px solid #CF6F49;
+        width: 100%;
+    }
+  
+}
+@media (max-width:650px) {
+    header{
+        border-bottom: 3px solid #CF6F49;
+        width: 100%;
+    }
+  
+}
+// SELECTGACHA KIRILDI
+@media (max-width:600px) {
+    header{
+        border-bottom: 3px solid #CF6F49;
+        width: 100%;
+        .header__wrapper{
+            .header__collection{
+                ul{
+                    li{
+                        select{
+                           display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+  
+}
+@media (max-width:550px) {
+    header{
+        border-bottom: 3px solid #CF6F49;
+        width: 100%;
+        .header__wrapper{
+            .header__collection{
+                ul{
+                    li{
+                       .btn.white.m{
+                         display: none;
+                       }
+                    }
+                }
+            }
+        }
+    }
+  
+}
+@media (max-width:500px) {
+    header{
+        border-bottom: 3px solid #CF6F49;
+        width: 100%;
+        .header__wrapper{
+            .header__collection{
+                ul{
+                    li{
+                       .btn.white.m{
+                         display: none;
+                       }
+                    }
+                }
+            }
+        }
+    }
+  
+}
+@media (max-width:450px) {
+    header{
+        border-bottom: 3px solid #CF6F49;
+        width: 100%;
+        .header__wrapper{
+            .header__collection{
+                ul{
+                    li{
+                        display: flex;
+                        align-items: center;
+                        gap: 20px;
+                       .btn.white{
+                        display: none;
+                       }
+                       .fa-bars{
+                        display: block;
+                        padding: 8px;
+                        border: 1px solid #ddd;
+                        border-radius: 8px;
+                        transition: .5s linear;
+                        &:hover{
+                            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                            transform: scale(1.2);
+                        }
+                       }
+                    }
+                }
+            }
+        }
+    }
+  
+}
+@media (max-width:400px) {
+    header{
+        border-bottom: 3px solid #CF6F49;
+        width: 100%;
+        .header__wrapper{
+            .header__collection{
+                ul{
+                    li{
+                        .btn.dark{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+  
+}
+@media (max-width:350px) {
+    header{
+        border-bottom: 3px solid #CF6F49;
+        width: 100%;
+        .header__wrapper{
+            .header__collection{
+                ul{
+                    li{
+                        .btn.dark{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+  
+}

@@ -1,0 +1,73 @@
+@font-face {
+    font-family: Roboto;
+    src: url("../font/roboto/Roboto-Regular.woff");
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+    font-family: 'Roboto';
+}
+.container{
+    max-width: 1312px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+.btn{
+    height: 35px;
+    padding: 9px 21px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.btn.white{
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.btn.dark{
+    background-color: #CF6F49;
+    color: #fff;
+}
+
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+button{
+    cursor: pointer;
+    border: 0;
+}
+select{
+    outline: none;
+    border: 0;
+    font-size: 17px;
+    color: #222222;
+    font-weight: 700;
+}
+
+.fa-solid.fa-bars{
+    display: none;
+}
+/* Umumiy scroll bar uchun */
+::-webkit-scrollbar {
+    width: 15px; 
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #CF6F49; 
+    border-radius: 10px; 
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #974c2f 
+  }
+  
+  .media{
+    display: none;
+  }

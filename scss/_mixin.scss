@@ -1,0 +1,8 @@
+@mixin btn($bck,$color) {
+    padding: 9px 21px;
+    border-radius: 8px;
+    border: 0;
+    background-color: $bck;
+    color: $color;
+    cursor: pointer ;
+}
